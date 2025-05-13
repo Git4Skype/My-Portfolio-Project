@@ -1,0 +1,60 @@
+
+/* CSS HEX */
+--coffee: #704e31ff;
+--black-bean: #371d1eff;
+--coyote: #785e4bff;
+--licorice: #120301ff;
+--lion: #c28e5aff;
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+h1, h2, h3 {
+   font-family: "Lucida Console", "Courier New", monospace;;
+}
+
+h2 {
+   color: #704e31ff;
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(90deg, #704e31ff, #371d1eff, #785e4bff, #120301ff, #c28e5aff);
+    color: white
+}
+
+header h2 {
+    color: #120301ff;
+}
+
+
+footer {
+    background-image: linear-gradient(0deg, #704e31ff, #371d1eff, #785e4bff, #120301ff, #c28e5aff);
+    padding: 20px 0;
+    color: white
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #785e4bff;
+}
+
+.carousel {
+    border: solid #371d1eff;
+}
+
+.modal{
+    font-family: Arial, Helvetica, sans-serif;;
+
+}
+
+.accordion-button {
+  background-color: #d3d3d3;
+}
