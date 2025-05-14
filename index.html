@@ -17,7 +17,7 @@
         <!-- Additional CSS  -->
         <link rel="stylesheet" href="css/styles.css" />
 
-        <title>Portfolio - Ozair A. Khan</title>
+        <title>PORTFOLIO - Ozair A. Khan</title>
     </head>
 
     <body>
@@ -25,35 +25,43 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2 align-self-center">
-                        <img src="images/OAK.jpg" class="img-fluid" />
-                    </div>
+                    <div class="d-flex justify-content-evenly">
+                        <div class="card col-md-2" style="width: 13rem;">
+                            <img src="images/OAK.jpg" class="card-img-top img-fluid" alt="Potrait photo of Ozair">
+                            <div class="card-body align-self-center">
+                                <a href="#" class="btn">Resume</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card col-md-7" style="width: 50rem;">
+                            <img src="images/mountains.jpg" class="card-img-top img-fluid" alt="Mountains panorama">
+                
+                            <div class="card-body align-self-center text-center">
+                                <h1>Ozair A. Khan</h1>
+                                <h2>Freelance Software Developer</h2>
+                            </div>
+                        </div>
+    
+                        <div class="card col-md-3 align-self-center" style="width: 13rem;">
+                            <div class="card-body align-self-center">
+                               <img src="images/URLs.jpg" class="card-img-top img-fluid" alt="photo of URL link">
 
-                    <div class="col-md-7 align-self-center text-center" >
-                        <h1>Ozair A. Khan</h1>
-                        <h2 class="text-white">Freelance Software Developer</h2>
-                    </div>
-                    
-                    <!-- Social Media Icons -->
-                    <div class="col-md-3 align-self-center">
-                        <ul class="list-unstyled offset-1">
-                            <li>
-                                <i class="fa-solid fa-envelope fa-lg text-white"></i> innate.nature@gmail.com                                        
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/oakgis"><i class="fa-brands fa-linkedin fa-xl color-white"></i> Linked In</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/Git4Skype"><i class="fa-brands fa-github fa-xl color-white"></i> GitHub</a>
-                            </li>
-                            <li>
-<!--Add href value to download a pdf -->                        
-                                <a href="">Resume</a>
-                            </li>
-                        </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="mailto:innate.nature@gmail.com"><i class="fa-solid fa-envelope fa-lg text-white"></i>innate.nature@gmail.com</a>                                      
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/oakgis"><i class="fa-brands fa-linkedin fa-xl"></i> Linked In</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Git4Skype"><i class="fa-brands fa-github fa-xl"></i> GitHub</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div>    
         </header>
 
         <!-- Navigation Bar -->
@@ -74,107 +82,106 @@
 
         <!-- Main Content -->
         <main class="container">
+            <section class="'row">
+                <h1 class="col text-center text-white">PORTFOLIO</h1>
+            </section>
             <section class="row">
-                <div class="col">
-                    <div class="d-flex">
-                        <div class="align-self-center" >
-                        <!-- Details -->
-                        <div class="col-md-4 align-self-center mx-auto"></div>
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#about">
-                                        <strong>About</strong>
-                                    </button>
-                                </h3>
-                                <div id="about" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body d-none d-sm-block">
-                                        <p>Ozair is a curious, detail-oriented professional who believes in continuous learning. He started off his career as a computer programmer and worked in Bell Labs. As computer science faculty member he has taught university students databases and object oriented programming. Ozair worked in the oil and gas industry extensively providing solution in geomatics and GIS -- Geographic Information Systems. He has a passion for designing and developing innovative process automation and workflow solutions in this domain. Ozair has also provided services in technical writing producing white papers, case studies, blog posts, conference papers, and technical reports. He reads extensively and enjoys creative writing and swimming. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#experience">
-                                        <strong>Relevant Experience</strong>
-                                    </button>
-                                </h3>
-                                <div id="experience" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body d-none d-sm-block">
-                                        <p>Ozair has worked in the technology and engineering domain of the oil and gas industry as well as in academia. He provided GIS support to Geomatics, Conceptual Design, Drilling, Engineering, Exploration and Planning departments of E&P organizations. He established GIS in Al Dhafra Petroleum and was instrumental in helping streamline business operations using technical innovations through proposing and prototyping software.</p>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#skills">
-                                        <strong>Relevant Skills</strong>
-                                    </button>
-                                </h3>
-                                <div id="skills" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body d-none d-sm-block">
-                                        <p>Programming languages: C/C++, Python, Visual Basic, HTML, CSS, SQL, PL/SQL
-                                        <p>Frameworks: Bootstrap, X/Motif</p>
-                                        <p>Databases: Oracle, Informix, MS Access</p>
-                                        <p>Operating Systems: Windows, Unix</p>
-                                        <p>Packages: ArcGIS, Erdas Imagine, MS Office, Google Docs</p>
-                                        <p>Tools: Git/GitHub</p>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#volunteer">
-                                        <strong>Volunteering</strong>
-                                    </button>
-                                </h3>
-                                <div id="volunteer" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body d-none d-sm-block">
-                                        <p>Ozair volunteered as a writer/editor in GoGeomatics Canada. His profile is available <a href="https://gogeomatics.ca/author/ozair-khan/">here</a>. He also volunteers as an editor for IN Education. The articles he edited are available <a href="https://ineducationonline.org/category/editor/ozair-khan/">here</a> </p>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#education">
-                                        <strong>Education</strong>
-                                    </button>
-                                </h3>
-                                <div id="education" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body d-none d-sm-block">
-                                        <p>MS - Electrical & Computer Engineering - Rutgers University</p>
-                                        <p>BS - Electrical & Computer Engineering - University of Buffalo</p>
-                                        <p>Graduate Certificate - Creative Writing - Humber College</p>
-                                        <p>Software Development Bootcamp - Nucamp</p>
-                                    </div>
-                                </div>
-                            </div> 
+            <!-- Details -->
+            <div class="col accordion accordion-flush align-self-center mx-auto"></div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <strong>About Ozair</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                                <p>Ozair is a curious, detail-oriented professional who believes in continuous learning. He started off his career as a computer programmer and worked in Bell Labs. As computer science faculty member he has taught university students databases and object oriented programming. Ozair worked in the oil and gas industry extensively providing solution in geomatics and GIS -- Geographic Information Systems. He has a passion for designing and developing innovative process automation and workflow solutions in this domain. Ozair has also provided services in technical writing producing white papers, case studies, blog posts, conference papers, and technical reports. He reads extensively and enjoys creative writing and swimming. </p>
                         </div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#experience">
+                            <strong>Relevant Experience</strong>
+                        </button>
+                    </h2>
+                    <div id="experience" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body d-none d-sm-block">
+                            <p>Ozair has worked in the technology and engineering domain of the oil and gas industry as well as in academia. He provided GIS support to Geomatics, Conceptual Design, Drilling, Engineering, Exploration and Planning departments of E&P organizations. He established GIS in Al Dhafra Petroleum and was instrumental in helping streamline business operations using technical innovations through proposing and prototyping software.</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#skills">
+                            <strong>Relevant Skills</strong>
+                        </button>
+                    </h2>
+                    <div id="skills" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body d-none d-sm-block">
+                            <p>Programming languages: C/C++, Python, Visual Basic, HTML, CSS, SQL, PL/SQL
+                            <p>Frameworks: Bootstrap, X/Motif</p>
+                            <p>Databases: Oracle, Informix, MS Access</p>
+                            <p>Operating Systems: Windows, Unix</p>
+                            <p>Packages: ArcGIS, Erdas Imagine, MS Office, Google Docs</p>
+                            <p>Tools: Git/GitHub</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#volunteer">
+                            <strong>Volunteering</strong>
+                        </button>
+                    </h2>
+                    <div id="volunteer" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body d-none d-sm-block">
+                            <p>Ozair volunteered as a writer/editor in GoGeomatics Canada. His profile is available <a href="https://gogeomatics.ca/author/ozair-khan/">here</a>. He also volunteers as an editor for IN Education. The articles he edited are available <a href="https://ineducationonline.org/category/editor/ozair-khan/">here</a> </p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#education">
+                            <strong>Education</strong>
+                        </button>
+                    </h2>
+                    <div id="education" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body d-none d-sm-block">
+                            <p>MS - Electrical & Computer Engineering - Rutgers University</p>
+                            <p>BS - Electrical & Computer Engineering - University of Buffalo</p>
+                            <p>Graduate Certificate - Creative Writing - Humber College</p>
+                            <p>Software Development Bootcamp - Nucamp</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="'row">
+                <h1 class="col text-center text-white">SAMPLE PROJECTS</h1>
             </section>
             <section class="row">
                 <div class="align-self-center">
                     <!-- Project Samples Carousel -->
                     <div class="col mx-auto">
-                        <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselSamples" class="carousel slide  carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
-                                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
-                                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
-                                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="3"></button>
-                                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="4"></button>
-                                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="5"></button>
-                                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="6"></button>
+                                <button type="button" data-bs-target="#carouselSamples" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#carouselSamples" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carouselSamples" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#carouselSamples" data-bs-slide-to="3"></button>
+                                <button type="button" data-bs-target="#carouselSamples" data-bs-slide-to="4"></button>
+                                <button type="button" data-bs-target="#carouselSamples" data-bs-slide-to="5"></button>
+                                <button type="button" data-bs-target="#carouselSamples" data-bs-slide-to="6"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="carousel-caption">
-                                        <p class="d-none d-sm-block">>GIS Workflow Automation Input</p>
+                                        <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                                     </div>
                                     <div>
@@ -184,7 +191,7 @@
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <p class="d-none d-sm-block">>GIS Workflow Automation Output</p>
+                                        <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                                     </div>
                                     <img class="d-block w-100" src="images/GIS Map Workflow Tool -2.jpg" alt="GIS Screenshot" />
@@ -192,7 +199,7 @@
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <p class="d-none d-sm-block">>GIS Workflow Automation Output</p>
+                                        <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                                     </div>
                                     <img class="d-block w-100" src="images/GIS Map Workflow Tool -3.jpg" alt="GIS Screenshot" />
@@ -202,7 +209,7 @@
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <p class="d-none d-sm-block">BMS Package Sizing Calculator Input</p>                                        
+                                        <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                                     </div>
                                     <img class="d-block w-100" src="images/Solar Sizing Calculator - 1.jpg" alt="Oil & Gas Screenshot" />
@@ -212,7 +219,7 @@
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <p class="d-none d-sm-block">BMS Package Sizing Calculator Input</p>                                        
+                                        <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                                     </div>
                                     <img class="d-block w-100" src="images/Solar Sizing Calculator - 4.jpg" alt="Oil & Gas Screenshot" />
@@ -222,7 +229,7 @@
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <p class="d-none d-sm-block">BMS Package Sizing Calculator Output</p>                                        
+                                        <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                                     </div>
                                     <img class="d-block w-100" src="images/Solar Sizing Calculator - 5.jpg" alt="Oil & Gas Screenshot" />
@@ -231,12 +238,20 @@
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <p class="d-none d-sm-block">Gas Fuel Train Standards Reader</p>                                        
+                                        <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                                     </div>
                                     <img class="d-block w-100" src="images/BMS Regulatory Compliance Tool.jpg" alt="Oil & Gas Screenshot" />
 
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSamples" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselSamples" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
                         </div>
                     </div>

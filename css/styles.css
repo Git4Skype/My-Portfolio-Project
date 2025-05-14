@@ -2,12 +2,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;;
 }
 
+p{
+    color: white;
+    background-color:  #704e31ff;
+    opacity: 0.7;
+}
+
+
+main h1{
+    background-color: #371d1eff;
+}
+
 h1, h2, h3 {
-   font-family: "Lucida Console", "Courier New", monospace;;
+   font-family: "Lucida Console", "Courier New", monospace;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 
 h2 {
-   color: #704e31ff;
+   color:  #704e31ff;
 }
 
 header {
@@ -47,5 +60,19 @@ footer {
 }
 
 .accordion-button {
-  background-color: #d3d3d3;
+    background-color:  #785e4bff;
+    color: white;
+    font-size: 20px;
+}
+
+
+.card-body h1, .card-body h2{
+    color: #704e31ff;
+    padding: 0;
+}
+
+
+.btn, .btn:hover{
+    color: white;
+    background-color:  #704e31ff;
 }
